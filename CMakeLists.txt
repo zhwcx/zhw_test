@@ -9,6 +9,7 @@ set(CMAKE_C_COMPILER "/usr/bin/gcc")
 add_compile_options(-Wall -g)
 
 include_directories(${CMAKE_SOURCE_DIR}/greeting)
+include_directories(${CMAKE_SOURCE_DIR}/string_test)
 
-add_executable(main_cmake main.c greeting/greeting.c)
+add_executable(main_cmake main.c greeting/greeting.c string_test/string_test.c)
 # 调试时记得打断点 否则会直接执行完
