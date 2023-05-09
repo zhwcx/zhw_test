@@ -11,5 +11,5 @@ add_compile_options(-Wall -g)
 include_directories(${CMAKE_SOURCE_DIR}/greeting)
 include_directories(${CMAKE_SOURCE_DIR}/string_test)
 
-add_executable(main_cmake main.c greeting/greeting.c string_test/string_test.c)
+add_executable(main_cmake main.c greeting/greeting.c string_test/stringtest.c)
 # 调试时记得打断点 否则会直接执行完

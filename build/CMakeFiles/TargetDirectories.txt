@@ -1,3 +1,3 @@
-/home/zhw/vscode_learn/build/CMakeFiles/edit_cache.dir
-/home/zhw/vscode_learn/build/CMakeFiles/rebuild_cache.dir
-/home/zhw/vscode_learn/build/CMakeFiles/main_cmake.dir
+/home/zhw/net_code/zhw_test/build/CMakeFiles/edit_cache.dir
+/home/zhw/net_code/zhw_test/build/CMakeFiles/rebuild_cache.dir
+/home/zhw/net_code/zhw_test/build/CMakeFiles/main_cmake.dir

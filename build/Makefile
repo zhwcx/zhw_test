@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zhw/vscode_learn
+CMAKE_SOURCE_DIR = /home/zhw/net_code/zhw_test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zhw/vscode_learn/build
+CMAKE_BINARY_DIR = /home/zhw/net_code/zhw_test/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhw/vscode_learn/build/CMakeFiles /home/zhw/vscode_learn/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhw/net_code/zhw_test/build/CMakeFiles /home/zhw/net_code/zhw_test/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhw/vscode_learn/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhw/net_code/zhw_test/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -177,6 +177,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/main_cmake.dir/build.make CMakeFiles/main_cmake.dir/main.c.s
 .PHONY : main.c.s
 
+string_test/stringtest.o: string_test/stringtest.c.o
+
+.PHONY : string_test/stringtest.o
+
+# target to build an object file
+string_test/stringtest.c.o:
+	$(MAKE) -f CMakeFiles/main_cmake.dir/build.make CMakeFiles/main_cmake.dir/string_test/stringtest.c.o
+.PHONY : string_test/stringtest.c.o
+
+string_test/stringtest.i: string_test/stringtest.c.i
+
+.PHONY : string_test/stringtest.i
+
+# target to preprocess a source file
+string_test/stringtest.c.i:
+	$(MAKE) -f CMakeFiles/main_cmake.dir/build.make CMakeFiles/main_cmake.dir/string_test/stringtest.c.i
+.PHONY : string_test/stringtest.c.i
+
+string_test/stringtest.s: string_test/stringtest.c.s
+
+.PHONY : string_test/stringtest.s
+
+# target to generate assembly for a file
+string_test/stringtest.c.s:
+	$(MAKE) -f CMakeFiles/main_cmake.dir/build.make CMakeFiles/main_cmake.dir/string_test/stringtest.c.s
+.PHONY : string_test/stringtest.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +219,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... string_test/stringtest.o"
+	@echo "... string_test/stringtest.i"
+	@echo "... string_test/stringtest.s"
 .PHONY : help
 
 

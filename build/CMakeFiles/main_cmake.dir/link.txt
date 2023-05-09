@@ -1,1 +1,1 @@
-/usr/bin/gcc     CMakeFiles/main_cmake.dir/main.c.o CMakeFiles/main_cmake.dir/greeting/greeting.c.o  -o main_cmake -rdynamic 
+/usr/bin/gcc     CMakeFiles/main_cmake.dir/main.c.o CMakeFiles/main_cmake.dir/greeting/greeting.c.o CMakeFiles/main_cmake.dir/string_test/stringtest.c.o  -o main_cmake -rdynamic 

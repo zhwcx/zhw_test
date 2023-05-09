@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/main_cmake.dir/main.c.o"
   "CMakeFiles/main_cmake.dir/greeting/greeting.c.o"
+  "CMakeFiles/main_cmake.dir/string_test/stringtest.c.o"
   "main_cmake.pdb"
   "main_cmake"
 )

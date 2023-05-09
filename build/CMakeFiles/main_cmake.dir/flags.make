@@ -6,5 +6,5 @@ C_FLAGS =   -Wall -g
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/zhw/vscode_learn/greeting 
+C_INCLUDES = -I/home/zhw/net_code/zhw_test/greeting -I/home/zhw/net_code/zhw_test/string_test 
 

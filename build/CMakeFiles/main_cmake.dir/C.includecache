@@ -10,15 +10,31 @@
 stdio.h
 -
 
-/home/zhw/vscode_learn/greeting/greeting.c
-greeting.h
-/home/zhw/vscode_learn/greeting/greeting.h
-
-/home/zhw/vscode_learn/greeting/greeting.h
+../string_test/stringtest.h
 stdio.h
 -
 
-/home/zhw/vscode_learn/main.c
+/home/zhw/net_code/zhw_test/greeting/greeting.c
 greeting.h
-/home/zhw/vscode_learn/greeting.h
+/home/zhw/net_code/zhw_test/greeting/greeting.h
+
+/home/zhw/net_code/zhw_test/greeting/greeting.h
+stdio.h
+-
+
+/home/zhw/net_code/zhw_test/main.c
+greeting.h
+/home/zhw/net_code/zhw_test/greeting.h
+stringtest.h
+/home/zhw/net_code/zhw_test/stringtest.h
+stdlib.h
+/home/zhw/net_code/zhw_test/stdlib.h
+
+/home/zhw/net_code/zhw_test/string_test/stringtest.c
+stringtest.h
+/home/zhw/net_code/zhw_test/string_test/stringtest.h
+
+/home/zhw/net_code/zhw_test/string_test/stringtest.h
+stdio.h
+-
 
