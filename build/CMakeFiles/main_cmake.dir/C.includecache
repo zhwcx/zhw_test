@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../greeting/greeting.h
+stdio.h
+-
+
+/home/zhw/vscode_learn/greeting/greeting.c
+greeting.h
+/home/zhw/vscode_learn/greeting/greeting.h
+
+/home/zhw/vscode_learn/greeting/greeting.h
+stdio.h
+-
+
+/home/zhw/vscode_learn/main.c
+greeting.h
+/home/zhw/vscode_learn/greeting.h
+
